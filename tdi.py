@@ -1,25 +1,19 @@
-from colorama import init, Fore, Back, Style
 import os
 import sys
 import requests
 
 #colores 
 
-rojo = Fore.RED
-violeta = Fore.MAGENTA
-amarillo = Fore.YELLOW
-blanco = Fore.WHITE
-azul = Fore.BLUE
-celeste = Fore.CYAN
 
-print(f"""{celeste}
+
+print(f"""
 
 ████████╗░░░██████╗░░░░██╗
 ╚══██╔══╝░░░██╔══██╗░░░██║
 ░░░██║░░░░░░██║░░██║░░░██║
 ░░░██║░░░░░░██║░░██║░░░██║
 ░░░██║░░░██╗██████╔╝██╗██║
-░░░╚═╝░░░╚═╝╚═════╝░╚═╝╚═╝{blanco}
+░░░╚═╝░░░╚═╝╚═════╝░╚═╝╚═╝
 """)
 
 api_key = 'a34d97f03e51e991d6699b9de0b8694c'
